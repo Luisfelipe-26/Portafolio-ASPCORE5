@@ -7,7 +7,7 @@ namespace Portafolio.Data
     {
         public string Encrypt(string pass)
         {
-            string hash = "Password Encrypt Pepo";
+            string hash = "*";
             byte[] data = UTF8Encoding.UTF8.GetBytes(pass);
             
             MD5 md5 = MD5.Create();
