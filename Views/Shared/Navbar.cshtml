@@ -1,0 +1,26 @@
+﻿
+    <link href="@Url.Content("~/CSS/Navbar.css")" rel="stylesheet" type="text/css" />
+
+
+
+<nav id="navegador" class="navbar navbar-expand-md ">
+  <div class="container-fluid">
+      <a  [routerLink]="['/Cuerpo']" class="navbar-brand">
+        <i id="logo1" class="fas fa-code m-2"></i>
+<span id="llogo">LF Developer </span>  </a>
+      <button id="bn12" type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+          <i  id="mds" class="fas fa-chevron-circle-down"></i>
+        </button>
+        
+        <div  id="MenuNavegacion" class="collapse navbar-collapse ">
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item "><a id="linknav"class="nav-link" asp-controller="Home" asp-action="Index" >Inicio</a> </li>
+            <li class="nav-item"><a id="linknav"class="nav-link" asp-controller="Proyecto" asp-action="Proyectos" >Proyectos</a> </li>
+            <li class="nav-item"><a id="linknav"class="nav-link" asp-controller="Contac" asp-action="form">Contactos</a> </li> 
+          </ul>
+        
+        </div>
+   </div> 
+</nav>
+
+ 

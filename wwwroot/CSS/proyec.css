@@ -1,0 +1,44 @@
+﻿#body {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 15px;
+}
+#contePro {
+    margin-top: 15px;
+    margin-left: 80px;
+    display: inline-block;
+    width: 450px;
+    transition-duration: 2s;
+}
+    #contePro:hover {
+        transition-duration: 2s;
+        width: 600px;
+    }
+#im1 {
+    border-radius: 25px 25px 0px 0px;
+    width: 450px;
+    transition-duration: 2s;
+}
+
+#contePro:hover > #im1{width:600px; transition-duration:2s;}
+#TexPro {
+    border-radius: 0px 0px 25px 25px;
+    padding: 15px;
+    background: rgba(0, 0, 0,0.90);
+    text-align: center;
+}
+
+#ppp {color:white; text-align:justify;}
+#aaa {
+    margin: 25px;
+   color: rgb(22, 162, 243); 
+}
+    #aaa:hover {
+        color: rgb(220,53,69);
+    }
+#tl-p {
+    color: rgb(220,53,69);
+}

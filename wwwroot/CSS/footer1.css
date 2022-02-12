@@ -1,0 +1,45 @@
+﻿.footer {
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.p1 {
+    color: rgb(220,53,69);
+}
+
+.p2 {
+    color: rgb(22, 162, 243);
+}
+
+#p {
+    margin: 0;
+}
+
+.contenedor {
+    display: inline-block;
+    text-align: center;
+    transition: .3s ease all;
+}
+
+ #imf {
+    width: 45px;
+    margin: 10px 15px;
+}
+
+.contenedor a:hover img {
+    animation: icono .5s ease;
+}
+
+@keyframes icono {
+    from {
+        transform: rotate3d(0,0,0,0);
+    }
+
+    to {
+        transform: rotate3d(0,1,0,368deg);
+    }
+}

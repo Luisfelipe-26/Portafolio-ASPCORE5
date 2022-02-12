@@ -1,0 +1,66 @@
+﻿/*rgb(22, 162, 243);a*/
+/*rgb(220,53,69)r*/
+
+.btn {
+    height: auto;
+    width: 100%;
+}
+
+.form-grup {
+    
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 3%;
+}
+.elementos{overflow:auto;}
+.elementos a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+
+#icono {
+    font-size: 35px;
+    color: rgb(22, 162, 243);
+}
+
+#icono2 {
+    font-size: 35px;
+    color: rgb(220,53,69);
+}
+
+#containerpdf {
+    border-radius: 15px;
+    margin: 2%;
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#cerrarb {
+    display: block;
+}
+
+#framepdf {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,56 @@
+﻿
+
+#body {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 15px;
+}
+
+#h66 {
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#pp {
+    text-align: justify;
+}
+
+.iconoss {
+    width: auto;
+    text-align: center;
+    color: rgb(22, 162, 243);
+}
+
+    .iconoss i {
+        margin: 5px;
+        font-size: 36px;
+    }
+
+    .iconoss:hover {
+        color: rgb(220,53,69);
+    }
+
+.iconosi:hover {
+    color: rgb(22, 162, 243);
+}
+
+.iconosi i {
+    margin: 5px;
+    font-size: 36px;
+}
+
+.iconosi {
+    width: auto;
+    text-align: center;
+    color: rgb(220,53,69);
+}
+
+#tituloss {
+    position: relative;
+    font-style: italic;
+}

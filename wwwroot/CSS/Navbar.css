@@ -1,0 +1,41 @@
+﻿
+#navegador {
+
+    font-style: italic;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(10, 10, 10);
+  
+}
+
+
+#linknav {
+    color: white;
+}
+    #linknav:hover {
+        border-color: black;
+        color: rgb(220,53,69);
+    }
+    #linknav:active {
+        border-color: black;
+        color: rgb(220,53,69);
+    }
+
+#llogo {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#logo1 {
+    color: rgb(220,53,69);
+}
+
+#bn12 {
+    background-color: rgb(220,53,69);
+    color: white;
+}
+
+#llogo:hover {
+    color: rgb(220,53,69);
+    font-size: 20px;
+}
